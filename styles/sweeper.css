@@ -1,0 +1,139 @@
+.clear {
+  clear: both;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: gray;
+}
+
+  #board {
+    width: 750px;
+    background: silver;
+    border: 2px solid;
+    margin-bottom: 1px
+  }
+
+    #bar {
+      width: 100%;
+      height: 10%;
+      background: silver;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+    }
+
+      #mine-count {
+        height: 80%;
+        width: 60px;
+        font-size: 20px;
+        text-align: center;
+        background: black;
+        color: orange;
+        margin: 0 auto
+
+      }
+
+      #smiley {
+        height: 32px;
+        width: 32px;
+
+      }
+      .smiley-start {
+        background: url("../images/smileybase.png");
+      }
+
+      .smiley-win {
+        background: url("../images/smiley-win.png")
+      }
+
+      .smiley-lose {
+        background: url("../images/smiley-lose.png")
+      }
+
+      #timer {
+        height: 80%;
+        width: 60px;
+        font-size: 20px;
+        text-align: center;
+        background: black;
+        color: orange;
+        margin: 0 auto
+
+      }
+
+    #minefield {
+      width: 100%;
+      height: 70%;
+      background: silver;
+    }
+
+      .tile {
+        width: 24px;
+        height: 24px;
+        margin: .5px;
+        float: left;
+
+      }
+      .new_tile {
+        background:url("../images/unmarked.png");
+      }
+
+      .flagged {
+        background:url("../images/flag.png");
+      }
+
+      .mine {
+        background:url("../images/mine.png");
+      }
+
+      .mine_hit {
+        background:url("../images/hit.png");
+      }
+
+      .wrong_mine {
+        background:url("../images/notmine.png")
+      }
+
+      .mine0 {
+        background:url("../images/tilebase.png");
+      }
+
+
+      .mine1 {
+        background:url("../images/mine1.png");
+      }
+
+      .mine2 {
+        background:url("../images/mine2.png");
+      }
+
+      .mine3 {
+        background:url("../images/mine3.png");
+      }
+
+      .mine4 {
+        background:url("../images/mine4.png");
+      }
+
+      .mine5 {
+        background:url("../images/mine5.png");
+      }
+
+      .mine6 {
+        background:url("../images/mine6.png");
+      }
+
+      .mine7 {
+        background:url("../images/mine7.png");
+      }
+
+      .mine8 {
+        background:url("images/mine8.png");
+      }
